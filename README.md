@@ -9,13 +9,13 @@ To visualize the system performance, `tab-cnn/demos/` contains video demonstrati
 ### 0. Requirements
 
 This project was made to be run with Python 2.7. You should have the following libraries/packages installed:
-* numpy
-* scipy
-* pandas
-* jams
-* librosa
-* keras
-* tensorflow
+* numpy 1.19
+* scipy 1.7
+* pandas 1.3
+* jams 0.3
+* librosa 0.8
+* keras 2.6
+* tensorflow 2.6
 
 ### 1. Download dataset
 
