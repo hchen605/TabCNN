@@ -8,7 +8,7 @@ To visualize the system performance, `tab-cnn/demos/` contains video demonstrati
 
 ### 0. Requirements
 
-This project was made to be run with Python 2.7. You should have the following libraries/packages installed:
+This project was made to be run with Python 2.7 -> Python 3.9. You should have the following libraries/packages installed:
 * numpy 1.19
 * scipy 1.7
 * pandas 1.3
