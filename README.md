@@ -2,9 +2,7 @@
 
 ### Guitar Tablature Estimation with a Convolutional Neural Network
 
-###### This code supports the paper "Guitar Tablature Estimation with a Convolutional Neural Network" that will be presented at the 20th Conference of the International Society for Music Information Retreival (ISMIR 2019).
 
-To visualize the system performance, `tab-cnn/demos/` contains video demonstrations showing predicted and ground truth tablature synced with input audio. To run the code, follow the instructions below.
 
 ### 0. Requirements
 
@@ -35,15 +33,8 @@ Run the following line to preprocess different spectral representations for the 
 
 This will save the preprocessed data as compressed numpy (.npz) files in the `data/spec_repr/` directory.
 
-### 3. (Optional) Set spectral representation
 
-The default spectral spresentation is the Constant-Q Transform (CQT). To change representations, an argument can be added when creating the TabCNN object. Specifically, on line 193 in `model/TabCNN.py`, a `spec_repr` parameter can be set to one of the following:
-* `spec_repr = "c"`, for CQT
-* `spec_repr = "m"`, for Mel-scaled spectrogram (Melspec)
-* `spec_repr = "cm"`, for CQT + Melspec concatenation
-* `spec_repr = "s"`, for Short-time Fourier Transform (STFT)
-
-### 4. Train and test model
+### 3. Train and test model
 
 Run the following line to train and test the TabCNN model:
 
@@ -60,4 +51,4 @@ A summary log and a csv results file will be saved in a time-stamped folder with
 
 
 
-# TabCNN
+
